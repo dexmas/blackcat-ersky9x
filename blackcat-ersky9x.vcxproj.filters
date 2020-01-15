@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{09d95a0f-a762-48ab-85a5-3b271c6ae80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{f70d1efc-92c4-421d-a6a7-663cd0580f8d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{91310c68-e573-4544-99cb-3d1637f2197d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\sky">
+      <UniqueIdentifier>{998439a5-4540-469e-8b3c-9aa2b8be8387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sky\joy">
+      <UniqueIdentifier>{87766886-d9b1-47f0-99e4-b9553b53d5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sky\joy\inc">
+      <UniqueIdentifier>{22b48d5f-6b5e-43a7-8422-3c524d6eba39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{0e926ef1-f438-43b1-96a9-eafb09ad8b5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ATSAM3S.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="ATSAM3S.props">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <LinkerScript Include="src\sam3s8c_flash.ld" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\board_lowlevel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coos.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core_cm3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\port.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\syscalls.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vectors_sam3s.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bluetooth.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drivers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\en.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ersky9x.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ff.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frsky.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lcd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadboot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logicio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maintenance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mavlink.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mixer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\no.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pdi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pulses.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pxx2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sbus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdcard_driver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stamp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\templates.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\diskio.cpp">
+      <Filter>src\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\power.cpp">
+      <Filter>src\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\pulses_driver.cpp">
+      <Filter>src\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\serial.cpp">
+      <Filter>src\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\sound.cpp">
+      <Filter>src\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\device_descriptor.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\HIDDFunction.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\HIDDJoystickDriver.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\HIDIdleRequest.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\HIDReportRequest.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\pmc.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBD.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBD_HAL.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBDCallbacks.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBDDriver.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBDDriverCallbacks.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBDescriptors.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sky\joy\USBRequests.c">
+      <Filter>src\sky\joy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\api_lcd.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\interface.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lapi.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lauxlib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lbaselib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lbitlib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lcode.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lcorolib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lctype.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ldblib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ldebug.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ldo.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ldump.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lfunc.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lgc.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\linit.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\liolib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\llex.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lmathlib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lmem.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\loadlib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lobject.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lopcodes.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\loslib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lparser.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lrotable.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lstate.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lstring.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lstrlib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ltable.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ltablib.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\ltm.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lua.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lua_api.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\luac.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lundump.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lvm.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lzio.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AT91SAM3S4.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bluetooth.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coocox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoOS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core_cm3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\diag.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\diskio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drivers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\en.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ersky9x.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ff.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffconf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frsky.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gtime.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\integer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jeti.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\language.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lcd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logicio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maintenance.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mavlink.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mixer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\myeeprom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\no.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OsConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pulses.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pxx2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sbus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\str_indices.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stringidx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\templates.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDDescriptors.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDDFunction.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDDTransferDriver.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDReports.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDRequests.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\HIDUsages.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\pmc.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBD.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBD_Config.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBD_HAL.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBDDriver.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBDescriptors.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBLib_Trace.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBLib_Types.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sky\joy\inc\USBRequests.h">
+      <Filter>src\sky\joy\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\definitions.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lapi.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lauxlib.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lcode.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lctype.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\ldebug.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\ldo.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lfunc.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lgc.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\llex.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\llimits.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lmem.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lobject.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lopcodes.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lparser.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lrotable.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lstate.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lstring.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\ltable.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\ltm.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua_api.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\luaconf.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lualib.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lundump.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lvm.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lzio.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
